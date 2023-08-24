@@ -27,3 +27,6 @@ docker tag nombreImagen username/nombreImagen:1.0.0
 
 /***push hub.docker***/
 docker push username/bd-mysql:tagname
+
+/***ejecutar aplicaciones descargadas***/
+docker run -p 8080:8080 myorg/myapp
